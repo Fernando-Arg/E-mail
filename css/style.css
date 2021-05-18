@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkturquoise;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 60px auto;
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    background-color: hotpink;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    height: 50px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.form_imputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.imputs_label {
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+}
+
+.imput_text {
+    display: inline-block;
+    height: 40px;
+    width: 400px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 2px rgb(0, 0, 0, .3);
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.imput_text:focus {
+    background: #f2f2f4;
+    outline: 1px solid #00aae4;
+}
+
+.imput_text-vacio:focus {
+    outline: 1px solid darkred;
+}
+
+.imput_text_area {
+    height: 70px;
+}
+
+.gif_img {
+    height: 150px;
+    width: auto;
+    display: none;
+}
+
+.buttons {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.buttons_cta {
+    background: darkcyan;
+    height: 50px;
+    width: 180px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    background: #00aae4;
+    cursor: pointer;
+}
+
+.opacity {
+    opacity: 50%;
+    cursor: not-allowed;
+}
+
+.buttons_cta-reset {
+    background: darkgreen;
+}
+
+.mensaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 450px;
+    height: 40px;
+    border: 1px solid red;
+    text-align: center;
+    color: #00aae4;
+}
+
+.mensaje1 {
+    background-color: #00aae4;
+    color: white;
+    border: none;
+    width: 430px;
+    height: 50px;
+    text-transform: uppercase;
+}
